@@ -1,5 +1,5 @@
 ﻿{
-   "ContextClassName": "NorthwindDbContext",
+   "ContextClassName": "AdventureDbContext",
    "ContextNamespace": null,
    "DefaultDacpacSchema": null,
    "FilterSchemas": false,
@@ -14,123 +14,275 @@
    "Tables": [
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Alphabetical list of products]"
+         "Name": "[HumanResources].[Department]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Categories]"
+         "Name": "[HumanResources].[Employee]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Category Sales for 1997]"
+         "Name": "[HumanResources].[EmployeeDepartmentHistory]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Contacts]"
+         "Name": "[HumanResources].[EmployeePayHistory]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Current Product List]"
+         "Name": "[HumanResources].[JobCandidate]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Customer and Suppliers by City]"
+         "Name": "[HumanResources].[Shift]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[CustomerCustomerDemo]"
+         "Name": "[Person].[Address]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[CustomerDemographics]"
+         "Name": "[Person].[AddressType]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Customers]"
+         "Name": "[Person].[BusinessEntity]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Employees]"
+         "Name": "[Person].[BusinessEntityAddress]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[EmployeeTerritories]"
+         "Name": "[Person].[BusinessEntityContact]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Invoices]"
+         "Name": "[Person].[ContactType]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Order Details Extended]"
+         "Name": "[Person].[CountryRegion]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Order Details]"
+         "Name": "[Person].[EmailAddress]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Order Subtotals]"
+         "Name": "[Person].[Password]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Orders Qry]"
+         "Name": "[Person].[Person]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Orders]"
+         "Name": "[Person].[PersonPhone]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Product Sales for 1997]"
+         "Name": "[Person].[PhoneNumberType]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Products Above Average Price]"
+         "Name": "[Person].[StateProvince]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Products by Category]"
+         "Name": "[Production].[BillOfMaterials]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Products]"
+         "Name": "[Production].[Culture]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Quarterly Orders]"
+         "Name": "[Production].[Document]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Region]"
+         "Name": "[Production].[Illustration]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Sales by Category]"
+         "Name": "[Production].[Location]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Sales Totals by Amount]"
+         "Name": "[Production].[Product]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Shippers]"
+         "Name": "[Production].[ProductCategory]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Summary of Sales by Quarter]"
+         "Name": "[Production].[ProductCostHistory]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Summary of Sales by Year]"
+         "Name": "[Production].[ProductDescription]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Suppliers]"
+         "Name": "[Production].[ProductDocument]"
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Territories]"
+         "Name": "[Production].[ProductInventory]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Production].[ProductListPriceHistory]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Production].[ProductModel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Production].[ProductModelIllustration]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Production].[ProductModelProductDescriptionCulture]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Production].[ProductPhoto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Production].[ProductProductPhoto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Production].[ProductReview]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Production].[ProductSubcategory]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Production].[ScrapReason]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Production].[TransactionHistory]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Production].[TransactionHistoryArchive]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Production].[UnitMeasure]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Production].[WorkOrder]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Production].[WorkOrderRouting]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Purchasing].[ProductVendor]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Purchasing].[PurchaseOrderDetail]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Purchasing].[PurchaseOrderHeader]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Purchasing].[ShipMethod]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Purchasing].[Vendor]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Sales].[CountryRegionCurrency]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Sales].[CreditCard]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Sales].[Currency]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Sales].[CurrencyRate]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Sales].[Customer]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Sales].[PersonCreditCard]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Sales].[SalesOrderDetail]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Sales].[SalesOrderHeader]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Sales].[SalesOrderHeaderSalesReason]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Sales].[SalesPerson]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Sales].[SalesPersonQuotaHistory]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Sales].[SalesReason]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Sales].[SalesTaxRate]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Sales].[SalesTerritory]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Sales].[SalesTerritoryHistory]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Sales].[ShoppingCartItem]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Sales].[SpecialOffer]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Sales].[SpecialOfferProduct]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[Sales].[Store]"
       }
    ],
    "UseDatabaseNames": false,
