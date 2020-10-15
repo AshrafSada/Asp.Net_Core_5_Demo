@@ -1,6 +1,4 @@
-using System;
-
-namespace Asp.Net_Core_5_Demo.Models
+namespace Asp.Net_Core_5_Demo.ViewModels
 {
 	public class ErrorViewModel
 	{

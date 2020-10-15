@@ -1,11 +1,7 @@
-﻿using Asp.Net_Core_5_Demo.Models;
+﻿using Asp.Net_Core_5_Demo.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Asp.Net_Core_5_Demo.Controllers
 {
